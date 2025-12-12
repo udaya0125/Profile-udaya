@@ -1,329 +1,401 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Udaya Adhikari | Minimal Portfolio</title>
-    <meta name="description" content="Minimal portfolio of Udaya Adhikari - Web Designer & Developer">
-    <meta name="keywords" content="web design, development, portfolio, minimalist">
-    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
-    
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600&display=swap" rel="stylesheet">
-    
-    <!-- Icons -->
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
-    
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
-    
-    <!-- Smooth Scroll -->
-    <style>
-        html {
-            scroll-behavior: smooth;
-        }
-    </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Udaya Adhikari | Portfolio</title>
+  <meta name="description" content="Professional portfolio of Udaya Adhikari - Web Designer & Developer">
+  <meta name="keywords" content="web design, development, portfolio, udaya adhikari">
+  <meta name="author" content="Udaya Adhikari">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-1RF782Y2KM"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-1RF782Y2KM');
+  </script>
 </head>
+
 <body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="container">
-            <a href="#" class="logo">UA</a>
-            <ul class="nav-menu">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#work">Work</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            <button class="menu-toggle">
-                <span></span>
-                <span></span>
-            </button>
-        </div>
-    </nav>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <span class="greeting">Hello, I'm</span>
-                <h1 class="hero-title">Udaya <span class="accent">Adhikari</span></h1>
-                <p class="hero-subtitle">I design & build clean, minimal digital experiences that make an impact.</p>
-                <div class="hero-buttons">
-                    <a href="#work" class="btn btn-primary">View Work</a>
-                    <a href="#contact" class="btn btn-outline">Get in Touch</a>
-                </div>
-                <div class="scroll-indicator">
-                    <span>Scroll</span>
-                    <div class="line"></div>
-                </div>
-            </div>
-        </div>
-    </section>
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo">Udaya<span>.</span></a>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#services">Services</a></li>
+          <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>
+          <li><a class="nav-link scrollto" href="#skills">Skills</a></li>
+          <li><a class="nav-link scrollto" href="#journal">Blog</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+    </div>
+  </header>
 
-    <!-- About Section -->
-    <section id="about" class="about">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-label">About</span>
-                <h2 class="section-title">Design with Purpose</h2>
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="home">
+    <div class="container">
+      <div class="hero-content">
+        <h1>Hello, I'm <span class="typed" data-typed-items="Udaya Adhikari,Web Designer,Frontend Developer,UI/UX Specialist"></span></h1>
+        <p class="hero-subtitle">I create beautiful, functional websites that deliver exceptional user experiences</p>
+        <a href="#portfolio" class="btn-get-started scrollto">View My Work</a>
+        <ul class="list-unstyled list-social">
+          <li><a href="https://www.facebook.com/udaya.adhikari.353"><i class="bi bi-facebook"></i></a></li>
+          <li><a href="https://twitter.com/UdayaAdhikari10"><i class="bi bi-twitter"></i></a></li>
+          <li><a href="https://www.instagram.com/udaya.adhikari.353/"><i class="bi bi-instagram"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/udaya-adhikari-ab5397240/"><i class="bi bi-linkedin"></i></a></li>
+          <li><a href="https://github.com/udaya-adhikari"><i class="bi bi-github"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <main id="main">
+    <!-- ======= About Section ======= -->
+    <section id="about" class="paddsection">
+      <div class="container">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-lg-5">
+            <div class="about-img">
+              <img src="assets/img/me.jpg" class="img-fluid rounded" alt="Udaya Adhikari">
             </div>
+          </div>
+          <div class="col-lg-7">
             <div class="about-content">
-                <div class="about-image">
-                    <div class="image-wrapper">
-                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" alt="Udaya Adhikari">
-                        <div class="image-overlay"></div>
-                    </div>
+              <h2>About <span>Me</span></h2>
+              <p class="p-heading">I'm a passionate web designer and developer based in Pokhara, Nepal, specializing in creating clean, modern, and user-friendly websites.</p>
+              <p>With 3+ years of experience in web development, I focus on delivering high-quality solutions that combine beautiful design with robust functionality. I believe in the power of clean code and thoughtful design to create memorable digital experiences.</p>
+              <div class="about-info">
+                <div class="row">
+                  <div class="col-md-6">
+                    <p><strong>Name:</strong> Udaya Adhikari</p>
+                    <p><strong>Email:</strong> adhikariudaya521@gmail.com</p>
+                  </div>
+                  <div class="col-md-6">
+                    <p><strong>Location:</strong> Pokhara, Nepal</p>
+                    <p><strong>Freelance:</strong> Available</p>
+                  </div>
                 </div>
-                <div class="about-text">
-                    <h3>I believe in simplicity, clarity, and purpose-driven design.</h3>
-                    <p>With over 3 years of experience in web design and development, I create digital solutions that are not only beautiful but also functional and user-centric. My approach combines modern design principles with clean code to deliver exceptional results.</p>
-                    <div class="about-stats">
-                        <div class="stat">
-                            <span class="number">50+</span>
-                            <span class="label">Projects Completed</span>
-                        </div>
-                        <div class="stat">
-                            <span class="number">3+</span>
-                            <span class="label">Years Experience</span>
-                        </div>
-                        <div class="stat">
-                            <span class="number">100%</span>
-                            <span class="label">Client Satisfaction</span>
-                        </div>
-                    </div>
-                </div>
+              </div>
+              <a href="assets/pdf/Udaya_CV.pdf" class="btn-download" download>Download CV</a>
             </div>
+          </div>
         </div>
+      </div>
     </section>
 
-    <!-- Work Section -->
-    <section id="work" class="work">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-label">Portfolio</span>
-                <h2 class="section-title">Selected Work</h2>
-            </div>
-            <div class="work-grid">
-                <div class="work-card">
-                    <div class="work-image">
-                        <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" alt="E-commerce Platform">
-                        <div class="work-overlay">
-                            <a href="#" class="work-link">
-                                <i class="ri-arrow-right-up-line"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="work-info">
-                        <span class="work-category">Web Design</span>
-                        <h3 class="work-title">Modern E-commerce Platform</h3>
-                        <p class="work-desc">Clean, user-focused design with seamless shopping experience</p>
-                    </div>
-                </div>
-                <div class="work-card">
-                    <div class="work-image">
-                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" alt="Finance Dashboard">
-                        <div class="work-overlay">
-                            <a href="#" class="work-link">
-                                <i class="ri-arrow-right-up-line"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="work-info">
-                        <span class="work-category">UI/UX Design</span>
-                        <h3 class="work-title">Finance Dashboard</h3>
-                        <p class="work-desc">Data visualization with intuitive user interface</p>
-                    </div>
-                </div>
-                <div class="work-card">
-                    <div class="work-image">
-                        <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" alt="Mobile App">
-                        <div class="work-overlay">
-                            <a href="#" class="work-link">
-                                <i class="ri-arrow-right-up-line"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="work-info">
-                        <span class="work-category">App Design</span>
-                        <h3 class="work-title">Health & Wellness App</h3>
-                        <p class="work-desc">Mobile-first design with focus on user engagement</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Services Section -->
+    <!-- ======= Services Section ======= -->
     <section id="services" class="services">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-label">Services</span>
-                <h2 class="section-title">What I Do</h2>
-            </div>
-            <div class="services-grid">
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="ri-pencil-ruler-2-line"></i>
-                    </div>
-                    <h3>UI/UX Design</h3>
-                    <p>Creating intuitive and beautiful user interfaces with focus on user experience and accessibility.</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="ri-code-s-slash-line"></i>
-                    </div>
-                    <h3>Web Development</h3>
-                    <p>Building responsive, fast, and clean websites using modern technologies and best practices.</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="ri-smartphone-line"></i>
-                    </div>
-                    <h3>Mobile Design</h3>
-                    <p>Designing mobile applications that provide seamless experiences across all devices.</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="ri-palette-line"></i>
-                    </div>
-                    <h3>Brand Identity</h3>
-                    <p>Developing cohesive brand systems that communicate your values effectively.</p>
-                </div>
-            </div>
+      <div class="container">
+        <div class="section-title">
+          <h2>My <span>Services</span></h2>
+          <p>Here's what I can help you with</p>
         </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="service-box">
+              <i class="bi bi-laptop"></i>
+              <h3>Web Design</h3>
+              <p>Custom website designs that are visually appealing and user-friendly across all devices.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="service-box">
+              <i class="bi bi-code-slash"></i>
+              <h3>Web Development</h3>
+              <p>Building responsive websites with clean code using modern technologies and frameworks.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="service-box">
+              <i class="bi bi-phone"></i>
+              <h3>Mobile Apps</h3>
+              <p>Developing mobile applications that provide seamless user experiences on all platforms.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="service-box">
+              <i class="bi bi-palette"></i>
+              <h3>UI/UX Design</h3>
+              <p>Creating intuitive user interfaces with focus on user experience and interaction design.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="service-box">
+              <i class="bi bi-brush"></i>
+              <h3>Brand Identity</h3>
+              <p>Developing cohesive brand identities that communicate your values and vision effectively.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="service-box">
+              <i class="bi bi-camera"></i>
+              <h3>Photography</h3>
+              <p>Professional photography services for websites, products, and branding materials.</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <!-- Skills Section -->
-    <section class="skills">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-label">Expertise</span>
-                <h2 class="section-title">Skills & Tools</h2>
-            </div>
-            <div class="skills-grid">
-                <div class="skill-category">
-                    <h3>Design</h3>
-                    <ul>
-                        <li>Figma</li>
-                        <li>Adobe Creative Suite</li>
-                        <li>User Research</li>
-                        <li>Wireframing</li>
-                        <li>Prototyping</li>
-                    </ul>
-                </div>
-                <div class="skill-category">
-                    <h3>Development</h3>
-                    <ul>
-                        <li>HTML/CSS</li>
-                        <li>JavaScript</li>
-                        <li>React.js</li>
-                        <li>Vue.js</li>
-                        <li>WordPress</li>
-                    </ul>
-                </div>
-                <div class="skill-category">
-                    <h3>Soft Skills</h3>
-                    <ul>
-                        <li>Communication</li>
-                        <li>Problem Solving</li>
-                        <li>Project Management</li>
-                        <li>Team Collaboration</li>
-                        <li>Client Relations</li>
-                    </ul>
-                </div>
-            </div>
+    <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills paddsection">
+      <div class="container">
+        <div class="section-title">
+          <h2>My <span>Skills</span></h2>
+          <p>Technologies and tools I work with</p>
         </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="skill-item">
+              <h4>HTML5 & CSS3</h4>
+              <div class="progress">
+                <div class="progress-bar" style="width: 95%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <h4>JavaScript</h4>
+              <div class="progress">
+                <div class="progress-bar" style="width: 85%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <h4>React.js</h4>
+              <div class="progress">
+                <div class="progress-bar" style="width: 80%"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="skill-item">
+              <h4>UI/UX Design</h4>
+              <div class="progress">
+                <div class="progress-bar" style="width: 90%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <h4>WordPress</h4>
+              <div class="progress">
+                <div class="progress-bar" style="width: 75%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <h4>Adobe Creative Suite</h4>
+              <div class="progress">
+                <div class="progress-bar" style="width: 85%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-label">Contact</span>
-                <h2 class="section-title">Let's Work Together</h2>
-            </div>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <h3>Get in Touch</h3>
-                    <p>Have a project in mind? I'd love to hear about it.</p>
-                    <div class="contact-details">
-                        <div class="contact-item">
-                            <i class="ri-mail-line"></i>
-                            <div>
-                                <span>Email</span>
-                                <a href="mailto:adhikariudaya521@gmail.com">adhikariudaya521@gmail.com</a>
-                            </div>
-                        </div>
-                        <div class="contact-item">
-                            <i class="ri-phone-line"></i>
-                            <div>
-                                <span>Phone</span>
-                                <a href="tel:+9779824133007">+977 9824133007</a>
-                            </div>
-                        </div>
-                        <div class="contact-item">
-                            <i class="ri-map-pin-line"></i>
-                            <div>
-                                <span>Location</span>
-                                <span>Pokhara, Nepal</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="social-links">
-                        <a href="https://www.facebook.com/udaya.adhikari.353" aria-label="Facebook"><i class="ri-facebook-fill"></i></a>
-                        <a href="https://twitter.com/UdayaAdhikari10" aria-label="Twitter"><i class="ri-twitter-fill"></i></a>
-                        <a href="https://www.instagram.com/udaya.adhikari.353/" aria-label="Instagram"><i class="ri-instagram-fill"></i></a>
-                        <a href="https://www.linkedin.com/in/udaya-adhikari-ab5397240/" aria-label="LinkedIn"><i class="ri-linkedin-fill"></i></a>
-                        <a href="https://github.com/udaya-adhikari" aria-label="GitHub"><i class="ri-github-fill"></i></a>
-                    </div>
-                </div>
-                <form class="contact-form" id="contactForm">
-                    <div class="form-group">
-                        <input type="text" id="name" name="name" placeholder="Your Name" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="email" id="email" name="email" placeholder="Your Email" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
-                    </div>
-                    <div class="form-group">
-                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Send Message</button>
-                </form>
-            </div>
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio paddsection">
+      <div class="container">
+        <div class="section-title">
+          <h2>My <span>Portfolio</span></h2>
+          <p>Check out some of my recent work</p>
         </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <ul id="portfolio-filters">
+              <li class="filter-active" data-filter="*">All</li>
+              <li data-filter=".filter-web">Web Design</li>
+              <li data-filter=".filter-app">Development</li>
+              <li data-filter=".filter-brand">Branding</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row portfolio-container">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/web1.jpg" class="img-fluid" alt="E-commerce Website">
+              <div class="portfolio-info">
+                <h4>E-commerce Platform</h4>
+                <p>Web Design</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/web1.jpg" data-glightbox="portfolio" class="preview-link"><i class="bi bi-eye"></i></a>
+                  <a href="project-details.html" class="details-link"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/app1.jpg" class="img-fluid" alt="Mobile App">
+              <div class="portfolio-info">
+                <h4>Fitness Mobile App</h4>
+                <p>Development</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/app1.jpg" data-glightbox="portfolio" class="preview-link"><i class="bi bi-eye"></i></a>
+                  <a href="project-details.html" class="details-link"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-brand">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/brand1.jpg" class="img-fluid" alt="Brand Identity">
+              <div class="portfolio-info">
+                <h4>Coffee Shop Branding</h4>
+                <p>Branding</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/brand1.jpg" data-glightbox="portfolio" class="preview-link"><i class="bi bi-eye"></i></a>
+                  <a href="project-details.html" class="details-link"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/web2.jpg" class="img-fluid" alt="Corporate Website">
+              <div class="portfolio-info">
+                <h4>Corporate Website</h4>
+                <p>Web Design</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/web2.jpg" data-glightbox="portfolio" class="preview-link"><i class="bi bi-eye"></i></a>
+                  <a href="project-details.html" class="details-link"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/app2.jpg" class="img-fluid" alt="Dashboard">
+              <div class="portfolio-info">
+                <h4>Analytics Dashboard</h4>
+                <p>Development</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/app2.jpg" data-glightbox="portfolio" class="preview-link"><i class="bi bi-eye"></i></a>
+                  <a href="project-details.html" class="details-link"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-brand">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/brand2.jpg" class="img-fluid" alt="Logo Design">
+              <div class="portfolio-info">
+                <h4>Startup Logo & Identity</h4>
+                <p>Branding</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/brand2.jpg" data-glightbox="portfolio" class="preview-link"><i class="bi bi-eye"></i></a>
+                  <a href="project-details.html" class="details-link"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <a href="#" class="logo">UA</a>
-                <p>Creating meaningful digital experiences through minimal design.</p>
-                <div class="footer-links">
-                    <a href="#home">Home</a>
-                    <a href="#about">About</a>
-                    <a href="#work">Work</a>
-                    <a href="#services">Services</a>
-                    <a href="#contact">Contact</a>
-                </div>
-                <div class="copyright">
-                    <p>&copy; 2023 Udaya Adhikari. All rights reserved.</p>
-                </div>
-            </div>
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact paddsection">
+      <div class="container">
+        <div class="section-title">
+          <h2>Contact <span>Me</span></h2>
+          <p>Let's work together!</p>
         </div>
-    </footer>
+        <div class="row">
+          <div class="col-lg-5">
+            <div class="contact-info">
+              <div class="info-box">
+                <i class="bi bi-geo-alt"></i>
+                <h3>Location</h3>
+                <p>Sarangkot-18, Pokhara, Nepal</p>
+              </div>
+              <div class="info-box">
+                <i class="bi bi-envelope"></i>
+                <h3>Email</h3>
+                <p>adhikariudaya521@gmail.com</p>
+              </div>
+              <div class="info-box">
+                <i class="bi bi-phone"></i>
+                <h3>Call</h3>
+                <p>+977 9824133007</p>
+              </div>
+              <div class="social-links">
+                <a href="https://www.facebook.com/udaya.adhikari.353" class="facebook"><i class="bi bi-facebook"></i></a>
+                <a href="https://twitter.com/UdayaAdhikari10" class="twitter"><i class="bi bi-twitter"></i></a>
+                <a href="https://www.instagram.com/udaya.adhikari.353/" class="instagram"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/udaya-adhikari-ab5397240/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <form action="forms/contact.php" method="post" class="php-email-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
+              </div>
+              <div class="text-center mt-3">
+                <button type="submit">Send Message</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
 
-    <!-- Back to Top -->
-    <a href="#home" class="back-to-top" aria-label="Back to top">
-        <i class="ri-arrow-up-line"></i>
-    </a>
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Udaya Adhikari</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Designed by <a href="https://udaya-adhikari.com.np/">Udaya Adhikari</a>
+      </div>
+    </div>
+  </footer>
 
-    <!-- JavaScript -->
-    <script src="assets/js/main.js"></script>
+  <a href="#" class="back-to-top"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
 </body>
 </html>
